@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div class="a">
+<h1>CSS for Small window</h1>
+
+</div>
+<div class="b">
+<h1>CSS for Large window</h1>
+
+</div>
+
+</body>
+
+<style>
+.b{
+  display:none;
+  color:Red
+  }
+.a{
+  color:red;
+  display:none;
+}
+
+@media(max-width:600px){
+
+  .a{
+    color:blue;
+    display:block;
+  }
+}
+@media(min-width:600px){
+  .b{
+    display:block;
+  }
+}
+
+</style>
+</html>
